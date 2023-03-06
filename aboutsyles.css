@@ -1,0 +1,332 @@
+body {
+   
+}
+
+.nav {
+    padding-bottom: 2.5rem;
+}
+.navbar {
+    height: 5rem;
+    padding:  0px 2rem;
+    font-family: 'oxygen', sans-serif;
+    font-weight: 500;
+  
+}
+
+.nav-item {
+    font-size: 20px;
+    margin: 0px 8px;
+}
+.nav-item:hover {
+    border-bottom: 3px solid rgb(6, 6, 85);
+    border-radius: 2px;
+    background-color: transparent;
+}
+.nav-link:hover {
+    color: black;
+    font-weight: 500;
+}
+
+.border {
+    border-bottom: 3px solid rgb(6, 6, 85);
+    border-radius: 2px;
+}
+.nav-link {
+    color:  rgb(2, 2, 27);
+    
+}
+i {
+    color:  rgb(17, 17, 56);
+    margin: 10px 15px 0px;
+ }
+ i:hover {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+#about {
+    margin-top: 70px;
+}
+.abouts h1{
+  
+   font-size: 60px;
+   padding: 50px 75px;
+   font-family: 'Orbitron', sans-serif;
+   font-weight: 700;
+} 
+.abouts p {
+    font-size: 19px; 
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+.abouts {
+    color: white;
+    text-align: center;
+    margin: 150px auto 0px;
+    width: 80%;
+}
+
+.follow {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+}
+.follow h1 {
+    font-size: 50px;
+   padding-bottom: 20px;
+   font-family: 'Orbitron', sans-serif;
+   font-weight: 700;
+}
+.follow p {
+    font-size: 20px;
+    color: rgb(235, 235, 218);
+}
+span a{
+   color: white;
+   padding: 3px 15px;
+   font-size: 21px;
+  margin: 0px 10px;
+  text-decoration: none;
+  background-image: linear-gradient(15deg, #043857 0%, #0e8a7b 100%);
+  font-family: 'Michroma', sans-serif;
+}
+a:hover {
+    background-image: linear-gradient(15deg, #ffffff 0%, #ffffff 100%);
+    color: rgb(6, 6, 85);;
+}
+.socials {
+    padding-top: 50px;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 100%;
+height: 1000px;
+    box-sizing: border-box;
+    display: block;
+    background-color: #000000;
+background-image: linear-gradient(to bottom, rgb(6, 33, 70), #144679);
+ z-index: -1;
+ 
+}
+
+/********SCOLLECTION********/
+
+#collection {
+    margin-top: 70px;
+}
+
+.collection {
+   padding-top: 50px;
+    text-align: center;
+}
+.collection h1  {
+    color: rgb(2, 39, 88);
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+.collection p{
+    font-size: 20px;
+    color: rgb(2, 39, 88);
+}
+.row img{
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 15px;
+}
+.row {
+    padding: 50px;
+}
+.carousel {
+    padding-bottom: 50px;
+    
+}
+.carousel img {
+    width: 30%;
+    margin:25px 1%;
+    border-radius: 15px;
+}
+.carousel-item {
+    width: 75%;
+   
+    text-align: center;
+}
+.carousel-inner {
+    width: 90%;
+    margin: 0px auto;
+  
+    padding-left: 19%;
+
+}
+.carousel-control-prev, .carousel-control-next{
+    background-color: rgb(2, 39, 88);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        padding:  0px 15px 70px;
+    }
+    .nav {
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+        font-size: 35px;
+        margin-bottom: 25px;
+     
+    }
+    #offcanvasNavbarLabel {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+    .nav-item {
+    
+        width: 40%;
+    }
+    .nav-link {
+        color: rgb(20, 20, 20);    
+    }
+    .nav-item:hover, .nav-link:focus, .nav-link:active {
+        text-align: center;
+        background-color: rgb(4, 4, 24);
+        border-radius: 2px;
+        border-radius: 10px;
+        margin: 10px 8px;
+
+    }
+    .nav-link:hover, .nav-item:focus, .nav-item:active {
+        color: white !important;
+    }
+
+    i {
+        color:  rgb(17, 17, 56);
+        margin: 20px 10px 0px;
+        
+    }
+    
+    
+
+
+
+
+
+
+
+
+.abouts h1{
+   font-size: 35px;
+   font-weight: 600;
+   padding: 25px 15px 50px;
+   
+}
+.abouts p {
+    font-size: 18px;
+    text-align: center;
+}
+.abouts {
+    width: 100%;
+    padding: 10px 25px;
+}
+span a{
+    display: block;
+   margin: 15px 10px;
+   border-radius: 20px;
+}
+
+svg {
+    height: 1500px;
+}
+.follow {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 15px;
+}
+.follow h1 {
+    font-size: 40px; 
+}
+.follow p {
+    font-size: 20px;
+    
+}
+svg {
+    height: 1700px;
+}
+
+
+
+
+
+
+
+
+
+.collection h1  {
+    font-size: 40px;
+}
+.collection p{
+    font-size: 18px;
+    padding: 5px 25px;
+  
+}
+.carousel {
+    padding: 50px 0px;
+}
+.carousel img {
+    width: 30%;
+    margin:25px 1%;
+    border-radius: 15px;
+}
+.carousel-item {
+    width: 100%;
+   
+    text-align: center;
+}
+.carousel-inner {
+    width: 100%;
+    margin: 0px auto;
+  
+    padding-left: 1.5%;
+
+}
+.carousel-control-prev, .carousel-control-next{
+    background-color: inherit;
+    
+}
+
+}
+
+
+

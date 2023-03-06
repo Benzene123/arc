@@ -1,0 +1,169 @@
+#lore {
+   margin-top: 70px;
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgb(5, 65, 121) 0%, rgb(2, 10, 26) 90% );
+}
+.nav {
+    padding-bottom: 2.5rem;
+}
+.navbar {
+    height: 5rem;
+    padding:  0px 2rem;
+    font-family: 'oxygen', sans-serif;
+    font-weight: 500;
+  
+}
+
+.nav-item {
+    font-size: 20px;
+    margin: 0px 8px;
+}
+.nav-item:hover {
+    border-bottom: 3px solid rgb(6, 6, 85);
+    border-radius: 2px;
+}
+.nav-link:hover {
+    color: black;
+    font-weight: 500;
+}
+
+.border {
+    border-bottom: 3px solid rgb(6, 6, 85);
+    border-radius: 2px;
+}
+.nav-link {
+    color:  rgb(2, 2, 27);
+    
+}
+i {
+    color:  rgb(17, 17, 56);
+    margin: 10px 15px 0px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+.lore {
+    padding: 70px 15px 20px;
+    text-align: center;
+    color: rgb(238, 238, 220);
+}
+.lore h1 {
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+.lore p {
+    font-size: 21px;
+    text-align: left;
+    color: white;
+}
+
+#staking {
+    background-color: white;
+    margin-top: 70px;
+}
+.staking {
+    padding: 50px;
+}
+
+.staking h1 {
+    font-size: 70px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700; 
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .navbar {
+        padding:  0px 15px 70px;
+    }
+    .nav {
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+        font-size: 35px;
+        margin-bottom: 25px;
+     
+    }
+    #offcanvasNavbarLabel {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+    .nav-item {
+       
+        width: 40%;
+    }
+    .nav-link {
+        color: rgb(20, 20, 20);    
+    }
+    .nav-item:hover, .nav-item:focus, .nav-item:active {
+        text-align: center;
+        background-color: rgb(4, 4, 24);
+        border-radius: 2px;
+        border-radius: 10px;
+        margin: 10px 8px;
+
+    }
+    .nav-link:hover, .nav-link:focus, .nav-link:active {
+        color: white !important;
+    }
+    i {
+        color:  rgb(17, 17, 56);
+        margin: 20px 10px 0px;
+        
+    }
+
+
+    
+
+
+
+    .lore {
+        padding: 70px 15px 20px;
+        text-align: center;
+        color: rgb(238, 238, 220);
+    }
+    .lore h1 {
+        color: white;
+        font-size: 40px;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+    .lore p {
+        font-size: 21px;
+        text-align: left;
+    }
+
+
+
+
+
+
+     #staking {
+        background-color: white;
+        margin-top: 70px;
+    }
+    .staking {
+        padding: 50px;
+    }
+  
+    .staking h1 {
+        font-size: 50px;
+        color: rgb(10, 10, 10);
+        text-align: center;
+    }
+
+}
