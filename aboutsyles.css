@@ -270,6 +270,11 @@ span a{
     display: block;
    margin: 15px 10px;
    border-radius: 20px;
+   padding: 0px auto;
+}
+.x i {
+  font-size: 25px;
+  padding: 0px auto;
 }
 
 svg {
