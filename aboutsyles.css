@@ -204,7 +204,7 @@ background-image: linear-gradient(to bottom,#000000, #020f1f,#041631 );
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .navbar {
         padding:  0px 15px 70px 0px;
     }
@@ -253,55 +253,48 @@ background-image: linear-gradient(to bottom,#000000, #020f1f,#041631 );
 
 
 
-
-.abouts h1{
-   font-size: 35px;
-   font-weight: 600;
-   padding: 25px 15px 50px;
-   
-}
-.abouts p {
-    font-size: 18px;
-    text-align: center;
-}
-.abouts {
-    width: 100%;
-    padding: 10px 25px;
-}
-span a{
-    display: block;
-   margin: 15px 10px;
-   border-radius: 20px;
-   padding: 0px auto;
-}
-.x i {
-  font-size: 25px;
-  padding: 0px auto;
-}
-
-svg {
-    height: 1500px;
-}
-.follow {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 50px 15px;
-}
-.follow h1 {
-    font-size: 40px; 
-}
-.follow p {
-    font-size: 20px;
-    
-}
-svg {
-    height: 1700px;
-}
-
-
-
-
-
+    .abouts h1{
+        font-size: 35px;
+        font-weight: 600;
+        padding: 25px 15px 50px;
+        
+     }
+     .abouts p {
+         font-size: 18px;
+         text-align: center;
+     }
+     .abouts {
+         width: 100%;
+         padding: 10px 25px;
+     }
+     span a{
+         display: block;
+        margin: 15px 10px;
+        border-radius: 20px;
+        padding-bottom: 15px;
+     }
+     .x i {
+         font-size: 25px;
+         padding: 0px auto;
+       }
+       .x i:hover {
+        color: rgb(17, 17, 56);
+       }
+     svg {
+         height: 1800px;
+     }
+     .follow {
+         color: rgb(255, 255, 255);
+         text-align: center;
+         padding: 50px 15px 0px;
+     }
+     .follow h1 {
+         font-size: 40px; 
+     }
+     .follow p {
+         font-size: 20px;
+         
+     }
 
 
 
@@ -330,7 +323,6 @@ svg {
 .carousel-inner {
     width: 100%;
     margin: 0px auto;
-  
     padding-left: 1.5%;
 
 }
@@ -340,6 +332,13 @@ svg {
 }
 
 }
+
+@media screen and (max-width: 370px) {
+    svg {
+        height: 24000px;
+    }
+}
+
 
 
 

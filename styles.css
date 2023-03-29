@@ -112,13 +112,13 @@ img {
 /***********TEAM*************/
 
 #team {
-    background-color: rgb(245, 242, 242);
+    background-color: rgb(7, 6, 6);
     margin-top: 70px;
     padding-bottom: 100px;
     height: auto;
 }
 #team h1 {
-    color: rgb(2, 39, 88);
+    color: rgb(196, 52, 33);
     font-size: 65px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
@@ -126,7 +126,7 @@ img {
 .team p {
     font-size: 23px;
     font-weight: 400;
-    color: rgb(0, 46, 105);
+    color: rgb(223, 223, 223);
 }
 
 .team {
@@ -142,9 +142,11 @@ img {
     margin: 0px auto;
     padding: 0px;
     text-align: center;
+    background-color: black;
+    border: 2px solid rgb(65, 64, 64);
 }
 .card:hover {
-    box-shadow: 0 1px 1px 2px rgb(163, 159, 159);
+    box-shadow: 0 1px 1px 2px rgb(146, 145, 145);
 }
 .card-img-top {
     height: 300px;
@@ -158,15 +160,15 @@ img {
     transform: scale(1.05);
 }
 .card-title {
-    color:  rgb(15, 45, 83);;
+    color:  rgb(212, 205, 204);;
 }
 .card-text {
-    color: rgb(0, 46, 105);
+    color: rgb(236, 233, 233);
 }
 .btn {
    font-size: 25px;
    font-weight: 600;
-    color: rgb(12, 20, 63);
+    color: rgb(197, 45, 45);
 }
 
 
