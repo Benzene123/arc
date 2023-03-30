@@ -64,10 +64,12 @@ i:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 70px;
-    position: relative;
-    
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+    
 #home h1 {
     font-size: 60px;
     text-align: center;
@@ -77,9 +79,8 @@ i:hover {
 }
 
 .one {
-    width: 40%;
+    width: 50%;
     color: rgb(241, 241, 241);
-    transform: translateY(75%);
     text-align: center;
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
@@ -89,20 +90,15 @@ i:hover {
 .zero {
    
    width: 50%;
-   margin: 0px auto;
-   color: rgb(219, 219, 219);
-   position: absolute;
-   right: 0;
-   top: 100px;
-   padding: 25px 0px;
+  background-color: black;
+   height: 100vh;
    
   
 }
 
-img {
+.zero img {
     width: 80%;
-    margin-left: 10%;
-    border-radius: 20px;
+   transform: translateY(46%);
 }
 
 
@@ -223,6 +219,8 @@ img {
 
     #home {
         height: 700px;
+        display: block;
+
     }
     #home h1 {
     
@@ -233,9 +231,9 @@ img {
         
     }
     .one {
-        width: 95%;
-        transform: translateY(50%);
-        margin: 0pc auto;
+        width: 100%;
+        transform: translateY(70%);
+        margin: 0pc auto 30px;
 
     }
     .one p {
@@ -249,20 +247,17 @@ img {
     .zero {
    
         width: 100%;
+        height: fit-content;
         margin: 0px auto;
         color: rgb(219, 219, 219);
-        position: absolute;
-        right: 5%;
-        top: 60%;
-        padding: 25px 0px;
+        margin-top: 30px;
+        transform: translateY(120%);
         
-       
      }
      
      img {
          width: 90%;
-         margin-left: 10%;
-         border-radius: 20px;
+         padding-bottom: 30px;
      }
      
 

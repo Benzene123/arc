@@ -15,9 +15,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .nav {
     color: black;
+    
 }
 
 .nav-item {
@@ -109,9 +111,16 @@ span a{
   background-image: linear-gradient(15deg,#4e1202 0%, #0f233a 30%, #000000 60%, #4e1202 90%);
   font-family: 'Michroma', sans-serif;
 }
-a:hover {
+span i {
+    color: white;
+}
+span i:hover {
+    color: white;
+    color: rgb(6, 6, 85);
+}
+span a:hover {
     background-image: linear-gradient(15deg, #ffffff 0%, #ffffff 100%);
-    color: rgb(6, 6, 85);;
+    color: rgb(6, 6, 85);
 }
 .socials {
     padding-top: 50px;
@@ -281,7 +290,7 @@ background-image: linear-gradient(to bottom,#000000, #020f1f,#041631 );
          font-size: 25px;
          padding: 0px auto;
        }
-       .x i:hover {
+       span a:hover {
         color: rgb(17, 17, 56);
        }
      svg {
