@@ -1,7 +1,8 @@
 #lore {
    margin-top: 70px;
-    height: 100vh;
-    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgb(5, 65, 121) 0%, rgb(2, 10, 26) 90% );
+    min-height: 100vh;
+    padding-bottom: 100px;
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(5, 47, 87, 0.911) 0%, rgb(1, 3, 27)40%, rgba(1, 6, 36, 0.945) 100% );
 }
 .nav {
     padding: 0px 0px 0.2rem 1rem;
@@ -32,10 +33,6 @@
     font-weight: 500;
 }
 
-.border {
-    border-bottom: 3px solid rgb(6, 6, 85);
-    border-radius: 2px;
-}
 .nav-link {
     color:  rgb(2, 2, 27);
     
@@ -56,13 +53,13 @@ i {
 
 
 .lore {
-    padding: 70px 15px 20px;
+    padding: 70px 50px 20px;
     text-align: center;
     color: rgb(238, 238, 220);
 }
 .lore h1 {
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     text-transform: uppercase;
     padding: 20px;
     font-family: 'Orbitron', sans-serif;
@@ -73,6 +70,45 @@ i {
     text-align: left;
     color: white;
 }
+
+hr {
+    border: 2px solid rgb(255, 255, 255);
+    opacity: 1;
+    width: 80%;
+    margin: 30px auto;
+    
+}
+
+.story {
+    color: rgba(247, 242, 242, 0.918);
+    padding: 25px 100px;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 19px;
+    font-family: "Poppins";
+    
+    word-spacing: 2px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #staking {
     background-color: white;
@@ -114,25 +150,26 @@ i {
     }
     .nav-item {
     
-        width: 40%;
+        width: 50%;
     }
     .nav-link {
         color: white;    
     }
     .nav-item:hover, .nav-link:focus, .nav-item:active {
+        transition: all 2s ease-in-out;
         text-align: center;
         background-color: rgb(236, 21, 21);
-        border-radius: 2px;
         border-radius: 10px;
         margin: 10px 8px;
+        border: none;
+        color: white;
 
     }
     i {
-
+        color: white;
         margin: 20px 10px 0px;
         
     }
-
 
     
 
@@ -145,9 +182,11 @@ i {
     }
     .lore h1 {
         color: white;
-        font-size: 40px;
+        font-size: 35px;
+        letter-spacing: 3px;
         text-transform: uppercase;
         padding: 20px;
+        font-weight: 500;
     }
     .lore p {
         font-size: 21px;
@@ -172,5 +211,21 @@ i {
         color: rgb(10, 10, 10);
         text-align: center;
     }
+    hr {
+   
+        width: 80%;
+        margin: 30px auto;
+        
+    }
+    
+    .story {
+        padding: 25px;
+        width: 95%;
+        line-height: 1.5;
+        font-size: 18px;
+        
+        
+    }
+    
 
 }

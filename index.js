@@ -4,7 +4,7 @@ sr.reveal(".navbar", {
     duration: 2000,
     origin: "bottom"
 });
-sr.reveal("", {
+sr.reveal(".z", {
     duration: 2000,
     origin: "left",
     distance: "100px"

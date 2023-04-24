@@ -58,12 +58,8 @@ i:hover {
 
 /******HOME************/
 #home {
-    height: 100vh;
-    background-image: url(images/multi-dimensional-urban-space-exotic-concepts-digital-painting.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 70px;
+    min-height: 100vh;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,71 +100,6 @@ i:hover {
 
 
 
-/***********TEAM*************/
-
-#team {
-    background-color: rgb(7, 6, 6);
-    margin-top: 70px;
-    padding-bottom: 100px;
-    height: auto;
-}
-#team h1 {
-    color: rgb(196, 52, 33);
-    font-size: 65px;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 700;
-}
-.team p {
-    font-size: 23px;
-    font-weight: 400;
-    color: rgb(223, 223, 223);
-}
-
-.team {
-    padding-top: 80px;
-    text-align: center;
-}
-.row {
-    padding: 50px;
-    margin: 0px auto;
-}
-.card {
-    border-radius: 15px;
-    margin: 0px auto;
-    padding: 0px;
-    text-align: center;
-    background-color: black;
-    border: 2px solid rgb(65, 64, 64);
-}
-.card:hover {
-    box-shadow: 0 1px 1px 2px rgb(146, 145, 145);
-}
-.card-img-top {
-    height: 300px;
-    width: 100%;
-    padding: 10px;
-    margin: 0px auto;
-    border-radius: 20px;
-    
-}
-.card-img-top:hover {
-    transform: scale(1.05);
-}
-.card-title {
-    color:  rgb(212, 205, 204);;
-}
-.card-text {
-    color: rgb(236, 233, 233);
-}
-.btn {
-   font-size: 25px;
-   font-weight: 600;
-    color: rgb(197, 45, 45);
-}
-
-
-
-
 @media screen and (max-width: 450px) {
     .navbar {
         padding:  0px 15px 70px 0px;
@@ -191,21 +122,23 @@ i:hover {
     }
     .nav-item {
     
-        width: 40%;
+        width: 50%;
     }
     .nav-link {
         color: white;    
     }
     .nav-item:hover, .nav-link:focus, .nav-item:active {
+        transition: all 2s ease-in-out;
         text-align: center;
         background-color: rgb(236, 21, 21);
-        border-radius: 2px;
         border-radius: 10px;
         margin: 10px 8px;
+        border: none;
+        color: white;
 
     }
     i {
-
+        color: white;
         margin: 20px 10px 0px;
         
     }
@@ -218,16 +151,15 @@ i:hover {
 
 
     #home {
-        height: 700px;
+        min-height: 100vh;
         display: block;
+        margin-top: 50px;
 
     }
     #home h1 {
     
-        font-size: 45px;
+        font-size: 40px;
         padding-bottom: 10px;
-        text-shadow: 5px 5px 3px black;
-        height: auto;
         
     }
     .one {
@@ -248,11 +180,9 @@ i:hover {
    
         width: 100%;
         height: fit-content;
-        margin: 0px auto;
-        color: rgb(219, 219, 219);
+        margin: 0px auto 50px;
         margin-top: 30px;
         transform: translateY(50%);
-        background-color: transparent;
      }
      
      .zero img {
