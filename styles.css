@@ -18,16 +18,24 @@ body {
     color: white !important;
     background-color: rgb(255, 255, 255, 0.9) !important;
 }
-.navbar-brand {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: white;
+.navbar-nav {
+    margin: 0px auto;
 }
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    
+  }
+
 .navbar-brand:hover {
    color: white;
 } 
+.navbar img {
+    width: 70px;
+    margin-left: 20px;
+}
 
 .nav-item {
     margin: 0px 8px;
@@ -58,12 +66,17 @@ i:hover {
 
 /******HOME************/
 #home {
-    min-height: 100vh;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    max-height: 100vh;
+    box-sizing: border-box;
+  
+}
+
+.home {
+    margin-top: 12rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    justify-content: center;
 }
     
 #home h1 {
@@ -75,7 +88,6 @@ i:hover {
 }
 
 .one {
-    width: 50%;
     color: rgb(241, 241, 241);
     text-align: center;
     font-family: 'Oxygen', sans-serif;
@@ -84,23 +96,18 @@ i:hover {
 }
 
 .zero {
-   
-   width: 50%;
   background-color: black;
-   height: 100vh;
    
-  
 }
 
 .zero img {
     width: 80%;
-   transform: translateY(46%);
 }
 
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
     .navbar {
         padding:  0px 15px 70px 0px;
     }
@@ -143,19 +150,18 @@ i:hover {
         
     }
 
-    
-
-
-
-
 
 
     #home {
-        min-height: 100vh;
-        display: block;
-        margin-top: 50px;
+        height: fit-content; 
 
     }
+
+    .home {
+        display: block;
+       
+    }
+
     #home h1 {
     
         font-size: 40px;
@@ -163,8 +169,6 @@ i:hover {
         
     }
     .one {
-        width: 100%;
-        transform: translateY(70%);
         margin: 0pc auto 30px;
 
     }
@@ -172,50 +176,116 @@ i:hover {
         font-size: 18px;
         font-weight: 400;
         padding: 0px 25px;
-        text-shadow: -2px 0 rgba(1, 12, 63, 0.911), 0 2px rgba(0, 0, 0, 0.911), 2px 0 rgba(8, 22, 53, 0.911), 0 -2px rgba(1, 7, 19, 0.911);
-        text-align: center;
+       text-align: center;
       
     }
     .zero {
    
         width: 100%;
-        height: fit-content;
         margin: 0px auto 50px;
         margin-top: 30px;
-        transform: translateY(50%);
+        
      }
      
      .zero img {
          width: 100%;
          border-radius: 20px;
-         width: 95%;
-         margin-left: 3%;
+     }
+
+
+    }
+
+
+
+
+
+
+@media screen and (min-width: 551px) and (max-width: 850px) {
+
+    .navbar {
+        padding:  0px 15px 70px 0px;
+    }
+    .nav {
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+        font-size: 35px;
+        margin-bottom: 25px;
+       
+     
+    }
+    #offcanvasNavbarLabel {
+        font-size: 40px;
+        padding-left: 20px;
+        
+    }
+    .offcanvas-body {
+        background-color: black;
+    }
+    .nav-item {
+    
+        width: 50%;
+    }
+    .nav-link {
+        color: white;    
+    }
+    .nav-item:hover, .nav-link:focus, .nav-item:active {
+        transition: all 2s ease-in-out;
+        text-align: center;
+        background-color: rgb(236, 21, 21);
+        border-radius: 10px;
+        margin: 10px 8px;
+        border: none;
+        color: white;
+
+    }
+    i {
+        color: white;
+        margin: 20px 10px 0px;
+        
+    }
+
+    
+    #home {
+        height: fit-content; 
+
+    }
+
+    .home {
+        display: block;
+       
+    }
+
+    #home h1 {
+    
+        font-size: 40px;
+        padding-bottom: 10px;
+        
+    }
+    .one {
+        margin: 0pc auto 30px;
+
+    }
+    .one p {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0px 25px;
+       text-align: center;
+      
+    }
+    .zero {
+   
+        width: 100%;
+        margin: 0px auto 50px;
+        margin-top: 30px;
+        
      }
      
+     .zero img {
+         width: 100%;
+         border-radius: 20px;
+     }
 
-
-
-
-
-
-
-
-
-    .card {
-        margin: 25px auto;
-    }
-    #team {
-        padding-bottom: 25px;
-    }
-    #team h1 {
-        font-size: 50px;
-    }
-    .row {
-        padding: 20px;
-    }
-}
-
-
+} 
 
 
 
